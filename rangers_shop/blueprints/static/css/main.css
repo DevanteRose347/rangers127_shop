@@ -1,0 +1,14 @@
+/* CSS for our Shop page */
+
+
+
+.shop-header {
+    background-image: url('https://www.carscoops.com/wp-content/uploads/2020/06/ferrari-enzo.jpg');
+    background-size: cover;
+    height: 700px;
+    color: white; 
+}
+
+.shop-stats {
+    color: white; 
+}
