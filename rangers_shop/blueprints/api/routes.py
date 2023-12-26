@@ -21,9 +21,8 @@ api = Blueprint(
 
 @api.route("/token", methods=["GET", "POST"])
 def token():
-    data = request.json
 
-    if data:
+    if data := request.json:
         client_id = data[
             "client_id"
         ]  # looking for the key of client_id on the dictionary passed to us
