@@ -73,7 +73,7 @@ def signin():
             flash(f"Successfully logged in user {email}", category='success')
             return redirect('/')
         else:
-            flash(f"Invalid Email and/or Password, Please try again", category='warning')
+            flash("Invalid Email and/or Password, Please try again", category='warning')
             return redirect('/signin')
         
     return render_template('sign_in.html', form=loginform)
